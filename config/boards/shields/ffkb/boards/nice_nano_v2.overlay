@@ -1,5 +1,15 @@
 #include <dt-bindings/led/led.h>
 
+&spi0 {
+  status = disabled;
+}
+
+&i2c0 {
+	compatible = "nordic,nrf-twi";
+	sda-pin = <2>;
+	scl-pin = <3>;
+};
+
 // &spi0 {
 //     compatible = "nordic,nrf-spim";
 //     /* Cannot be used together with i2c0. */

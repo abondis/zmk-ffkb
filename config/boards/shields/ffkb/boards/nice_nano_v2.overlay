@@ -2,7 +2,7 @@
 
 &spi0 {
   status = "disabled";
-}
+};
 
 &i2c0 {
 	compatible = "nordic,nrf-twi";

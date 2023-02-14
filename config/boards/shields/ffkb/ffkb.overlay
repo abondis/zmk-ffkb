@@ -93,6 +93,7 @@
 	status = "okay";
 
 	trackpad@3c {
+	  label = "trackpad";
 		compatible = "cirque,pinnacle";
 		reg = <0x3c>;
 		/* label = "DISPLAY"; */
